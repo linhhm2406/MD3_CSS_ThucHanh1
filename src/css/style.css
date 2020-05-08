@@ -1,0 +1,106 @@
+.container{
+    width: 100%;
+}
+
+.header1{
+    width: 100%;
+    height: 60px;
+    background-color: #113c51;
+    margin: 0 auto;
+    vertical-align: center;
+    overflow: hidden;
+}
+
+.header1 img {
+    padding-left: 10%;
+    float: left;
+}
+
+#list span, #type span {
+    float: left;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-block: white;
+}
+
+#list span:hover, #type span:hover{
+    background-color: white;
+    color: #113c51;
+}
+
+.header1 input{
+    margin: 20px 10px 10px;
+}
+
+#subMenuList, #subMenuType{
+    display: none;
+    width: 200px;
+    clear: left;
+    list-style-type: none;
+    position: absolute;
+}
+
+#subMenuList{
+    font-size: 18px;
+    left: 400px;
+    top : 60px;
+    background-color: #113c51;
+    color: white;
+}
+
+#subMenuType{
+    font-size: 18px;
+    left: 528px;
+    top : 60px;
+    background-color: #113c51;
+    color: white;
+}
+
+#list:hover #subMenuList, #type:hover #subMenuType{
+    display: block;
+}
+
+#subMenuList p :hover, #subMenuType p :hover{
+    background-color:white ;
+    color: #113c51;
+}
+
+.header1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.header2 p{
+    clear: both;
+    height: 10px;
+    margin: 0;
+    padding: 5px 5px 5px 11%;
+}
+
+.storyImage {
+    padding-left: 15%;
+    padding-top: 20px;
+}
+
+.storyImage img{
+    border: 1px solid black;
+    height: 396px;
+    width : 265px
+}
+
+.storyImage div {
+    float: left;
+    margin: 5px;
+}
+
+.storyImage p {
+    width: 100%;
+    font-weight: bold;
+    line-height: 5px;
+    text-align: center;
+}
+
